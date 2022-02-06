@@ -11,3 +11,4 @@ mongoose.connect(mongoUri, {
 });
 
 module.exports.User = require('./user');
+module.exports.Message = require('./message');
